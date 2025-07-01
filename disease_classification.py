@@ -1,9 +1,13 @@
-import pandas as pd
+import pandas as pd 
+import matplotlib.pyplot as plt
+from wordcloud import WordCloud
 import pickle
 import streamlit as st
 import re
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+from textblob import TextBlob
+import nltk
 
 # Define the cleaning function exactly as before
 stop_words = set(stopwords.words('english'))
