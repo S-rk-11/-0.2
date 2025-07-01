@@ -23,9 +23,9 @@ def clean_text(text):
 
 tab0, tab1 = st.tabs(["WordCloud","Predict Disease"])
 
-text_df = pd.read_csv("C://Users//Lenovo//OneDrive//Desktop//project Deployment Excelr//Drug_classification ExcelR Project//Disease_Classification.py")
+text_df = pd.read_csv("Disease_Classification.py")
 
-with open('C://Users//Lenovo//OneDrive//Desktop//project Deployment Excelr//Drug_classification ExcelR Project//disease_model.pkl', 'rb') as file:
+with open('disease_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 label_dict = {
