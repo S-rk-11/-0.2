@@ -4,9 +4,6 @@ import streamlit as st
 import re
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-from textblob import TextBlob
-
-
 
 # Define the cleaning function exactly as before
 stop_words = set(stopwords.words('english'))
