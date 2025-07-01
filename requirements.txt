@@ -1,5 +1,7 @@
 streamlit
-scikit-learn
-nltk
 pandas
-numpy
+matplotlib
+wordcloud
+nltk
+textblob
+scikit-learn
