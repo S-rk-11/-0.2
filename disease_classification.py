@@ -4,11 +4,12 @@ from wordcloud import WordCloud
 import pickle
 import streamlit as st
 import re
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from textblob import TextBlob
-import nltk
 
+nltk.data.path.append('./nltk_data')
 # Define the cleaning function exactly as before
 stop_words = set(stopwords.words('english'))
 lemma = WordNetLemmatizer()
